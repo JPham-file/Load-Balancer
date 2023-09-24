@@ -24,15 +24,14 @@ int main() {
     cin >> num_time;
     cout << "[STARTING]" << endl;
 
-//    queue<Request> request_q;
-
-    // TODO: TESTING
-    queue<int> request_q;
+    queue<Request> request_q = {};
     int request_q_size = num_servers*5;
     for (int i = 0; i < request_q_size; i++) {
-        request_q.push(i);
+        Request r;
+        request_q.push(r);
+//        cout << r.get_IP_in() << " " << r.get_time() << endl;
+//        cout << r.get_IP_out() << " " << r.get_time() << endl;
     }
-
 
     cout << "[ENDED]" << endl;
     return 0;

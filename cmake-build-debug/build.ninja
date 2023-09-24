@@ -67,12 +67,6 @@ build CMakeFiles/Project_2.dir/Request.cpp.obj: CXX_COMPILER__Project_2_Debug G$
   OBJECT_DIR = CMakeFiles\Project_2.dir
   OBJECT_FILE_DIR = CMakeFiles\Project_2.dir
 
-build CMakeFiles/Project_2.dir/Queue.cpp.obj: CXX_COMPILER__Project_2_Debug G$:/My$ Drive/CSCE$ 412/Project$ 2/Queue.cpp || cmake_object_order_depends_target_Project_2
-  DEP_FILE = CMakeFiles\Project_2.dir\Queue.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -std=gnu++23
-  OBJECT_DIR = CMakeFiles\Project_2.dir
-  OBJECT_FILE_DIR = CMakeFiles\Project_2.dir
-
 build CMakeFiles/Project_2.dir/LoadBalancer.cpp.obj: CXX_COMPILER__Project_2_Debug G$:/My$ Drive/CSCE$ 412/Project$ 2/LoadBalancer.cpp || cmake_object_order_depends_target_Project_2
   DEP_FILE = CMakeFiles\Project_2.dir\LoadBalancer.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -std=gnu++23
@@ -87,7 +81,7 @@ build CMakeFiles/Project_2.dir/LoadBalancer.cpp.obj: CXX_COMPILER__Project_2_Deb
 #############################################
 # Link the executable Project_2.exe
 
-build Project_2.exe: CXX_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/main.cpp.obj CMakeFiles/Project_2.dir/WebServer.cpp.obj CMakeFiles/Project_2.dir/Request.cpp.obj CMakeFiles/Project_2.dir/Queue.cpp.obj CMakeFiles/Project_2.dir/LoadBalancer.cpp.obj
+build Project_2.exe: CXX_EXECUTABLE_LINKER__Project_2_Debug CMakeFiles/Project_2.dir/main.cpp.obj CMakeFiles/Project_2.dir/WebServer.cpp.obj CMakeFiles/Project_2.dir/Request.cpp.obj CMakeFiles/Project_2.dir/LoadBalancer.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Project_2.dir
